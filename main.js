@@ -110,9 +110,8 @@ function findRandomElement(arr) {
 }
 
 //is it prime?
-//This function is O(n) if number is odd
-//iterates based on the size of an odd number.
-//This function is O(1) if number is even
+//This function is O(n)
+//iterates based on the size of a number.
 function isPrime(n) {
   // if n is less than 2 or a decimal, it's not prime
   if (n < 2 || n % 1 != 0) {
